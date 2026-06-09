@@ -1,0 +1,43 @@
+# Local secrets and machine-specific files
+.env
+.env.*
+!.env.example
+.claude/
+.idea/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and dependencies
+.venv/
+venv/
+env/
+node_modules/
+
+# Build and runtime outputs
+build/
+dist/
+*.log
+*.out.log
+*.err.log
+
+# Local configs and generated/private data
+demo/server/config/config.json
+demo/server/data/
+demo/results/
+
+# Existing nested repository; keep it managed by its own Git history
+demo/agent/
+
+# Archives and large local artifacts
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
