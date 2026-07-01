@@ -32,8 +32,6 @@ demo/server/config/config.json
 demo/server/data/
 demo/results/
 
-# Existing nested repository; keep it managed by its own Git history
-demo/agent/
 
 # Archives and large local artifacts
 *.zip
